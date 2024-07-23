@@ -5,8 +5,7 @@ import About from "./components/About";
 import Alert from "./components/Alert.js";
 import { useState } from "react";
 import React from "react";
-import { BrowserRouter as Router, Route , Routes} from "react-router-dom";
-
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 export default function App() {
   const [mode, setmode] = useState("light"); // Dark mode enabled or not
@@ -35,7 +34,7 @@ export default function App() {
   return (
     // <h1></h1> it can be show an error because in this app function you can do all work in one single tag not many
     <>
-      <Router>
+       <Router>
         <NavBar1
           title="TextUtils"
           AboutMe="About Us"
@@ -45,16 +44,11 @@ export default function App() {
         <Alert alert={alert} />
         <div className="container my-3">
           <Routes>
-            <Route path="/about">
-              <About />
-            </Route>
-            <Route path="/">
-            <TextForm heading="Enter commands" showAlert={showAlert} /><br /><br />
-            </Route>
-            </Routes>
+            <Route path="/about" element={<About />} />
+            <Route path="/" element={<TextForm heading="Enter commands" showAlert={showAlert} />} />
+          </Routes>
         </div>
       </Router>
-          {/* <About /> */}
     </>
   );
 }

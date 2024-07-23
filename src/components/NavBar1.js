@@ -43,7 +43,7 @@ export default function Navbar1(props) {
             />
             <label className="form-check-label" htmlFor="flexSwitchCheckDefault">Enable Darkmode</label>
           </div>
-          {/* <form className="d-flex" role="search">
+          <form className="d-flex" role="search">
             <input
               className="form-control me-2"
               type="search"
@@ -53,7 +53,7 @@ export default function Navbar1(props) {
             <button className="btn btn-outline-success" type="submit">
               Search
             </button>
-          </form> */}
+          </form>
         </div>
       </div>
     </nav>

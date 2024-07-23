@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/share-swadhin/static/css/main.7a6f1176.css",
+    "main.js": "/share-swadhin/static/js/main.94feb9be.js",
+    "static/js/453.ed3810f9.chunk.js": "/share-swadhin/static/js/453.ed3810f9.chunk.js",
+    "index.html": "/share-swadhin/index.html",
+    "main.7a6f1176.css.map": "/share-swadhin/static/css/main.7a6f1176.css.map",
+    "main.94feb9be.js.map": "/share-swadhin/static/js/main.94feb9be.js.map",
+    "453.ed3810f9.chunk.js.map": "/share-swadhin/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7a6f1176.css",
+    "static/js/main.94feb9be.js"
+  ]
+}
